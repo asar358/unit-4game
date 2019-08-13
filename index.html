@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystal Game</title>
+</head>
+<body>
+<header>
+        <div class="greetings">
+        <h1>Crystal Collector Game</h1>
+        </div>
+</header>
+
+<div class="container">
+    <div class="sub-container">
+        <div class="row">
+            <div class="col-4">
+                    <div class="instructions">
+                    <h2>How to play</h2>
+                    <hr>
+                    <p>You will be given a random number at the start of the game</p> 
+                    <br>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+                    <br>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
+                    <br>
+                    <p>The value of each crystal is hidden from you until you click on it</p>
+                    <br>
+                    <p>Each time when the game starts, the game will change the value of each crystal</p>
+                    </div>
+            </div>
+
+            <div class="col-6">
+                <div class="score-board">
+                <div id="random-number-div">
+                        <div id="random-number">
+                                <span id="randomNum"></span>
+                        </div>
+        
+                        <div id="score-board">
+                        <span id="win-or-lose"></span>
+                        <p>Wins: <span id="win-counter">0</span></p>
+                        <p>Losses: <span id="loss-counter">0</span></p>
+                        </div>
+                </div>
+                
+                <div id="current-score">
+                <h1>Accumilated Score:</h1>
+                <span id="total-score"></span>
+                </div>
+        </div>
+                
+            </div>
+        </div>
+</div>
+    
+<br>
+
+    <div id="crystals">
+                <img src="assets/images/blue.jpg" width="128" height="128" alt="blue" id="blueCrystal">
+                <img src="assets/images/purple.jpg" width="128" height="128" alt="purple" id="purpleCrystal">
+                <img src="assets/images/red.jpg" width="128" height="128" alt="red" id="redCrystal"> 
+                <img src="assets/images/yellow.jpg" width="128" height="128" alt="yello" id="yellowCrystal"> 
+
+   
+
+</div>  
+
+</div>
+
+
+<script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

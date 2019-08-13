@@ -1,0 +1,55 @@
+
+
+body {
+    background-image: url("../images/new.jpg");
+    color: black;
+    
+}
+header {
+    background-color: brown;
+    height: 80px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.score-board {
+   float: right;
+   margin-top: 20px;
+   
+}
+#crystals {
+    clear: both;
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-top: 30px;
+
+}
+
+#score-board {
+    padding: 30px;
+    margin: 20px auto;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+#current-score {
+    padding: 20px;
+    background-color: brown;
+    font-size: 20px;
+}
+
+#random-number {
+    background-color: burlywood;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.sub-container {
+    margin-top: 10px;
+}
+
+.instructions {
+    background-color: white;
+    padding: 5px;
+}
